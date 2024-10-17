@@ -260,6 +260,7 @@ html {
 .pricing-text {
   color: #6f7cb2;
   margin-top: 30px;
+  line-height: 25px;
   margin-bottom: 40px;
   width: 600px;
 }
@@ -376,6 +377,16 @@ hr.solid {
   border-radius: 5px;
   background: #f6f6f6;
   border: 1px solid #37447e;
+}
+.message-input {
+  width: 350px;
+  height: 37px;
+  padding: 7px 8px 120px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1 solid #c1c1c1;
+  background: #f6f6f6;
 }
 .note {
   display: flex;
