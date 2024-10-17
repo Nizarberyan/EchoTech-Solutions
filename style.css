@@ -392,6 +392,11 @@ hr.solid {
   border: 1px solid #d6d6d6;
   background: #f6f6f6;
 }
+.input-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 .note {
   display: flex;
   width: 450px;
@@ -401,7 +406,7 @@ hr.solid {
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 50px;
+  gap: 25px;
   flex-wrap: wrap;
   border-radius: 5px;
   margin-bottom: 52px;
