@@ -367,6 +367,8 @@ hr.solid {
   justify-content: space-between;
   border: 1px solid #acacac;
   border-radius: 6px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 .fill-message {
   margin-bottom: 50px;
@@ -452,3 +454,13 @@ hr.solid {
   cursor: pointer;
   scale: 1.05;
 }
+.social-media {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sm-text {
+  color: #37447e;
+}
+.sm-icons
