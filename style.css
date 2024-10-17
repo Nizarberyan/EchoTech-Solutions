@@ -65,8 +65,6 @@ html {
   transition: 200ms;
 }
 .learn button:hover {
-  background-color: #37447e;
-  color: white;
   cursor: pointer;
   scale: 1.05;
 }
@@ -109,6 +107,8 @@ html {
   padding: 10px;
 }
 .buy {
+  width: 150px;
+  height: 40px;
   color: white;
   background-color: #37447e;
   border: none;
@@ -362,11 +362,14 @@ hr.solid {
 }
 .main-contact {
   display: flex;
-  padding: 0 300px;
+  margin-top: 100px;
+  padding: 0 200px;
   justify-content: space-between;
 }
 .fill-message {
+  margin-bottom: 50px;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
@@ -376,18 +379,69 @@ hr.solid {
   height: 37px;
   border-radius: 5px;
   background: #f6f6f6;
-  border: 1px solid #37447e;
+  border: 1px solid #d6d6d6;
 }
 .message-input {
   width: 350px;
-  height: 37px;
+  height: 150px;
   padding: 7px 8px 120px 8px;
-  justify-content: center;
-  align-items: center;
+  padding: 0px;
   border-radius: 5px;
-  border: 1 solid #c1c1c1;
+  border: 1px solid #d6d6d6;
   background: #f6f6f6;
 }
 .note {
   display: flex;
+  width: 450px;
+  height: 300px;
+  padding: 30px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin-bottom: 52px;
+  border: 1px solid #d6d6d6;
+  background: #f6f6f6;
+}
+.note h1 {
+  color: #37447e;
+}
+.note p {
+  width: 420px;
+  line-height: 25px;
+}
+.contact-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.contact-buttons button {
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: #37447e;
+  border: none;
+  padding: 5px 50px;
+
+  border-radius: 5px;
+  transition: 200ms;
+}
+.contact-button-first:hover {
+  background-color: red;
+  color: white;
+  border-color: #aaaaaa;
+  cursor: pointer;
+  scale: 1.05;
+}
+.contact-button-second:hover {
+  background-color: #3cb371;
+  color: white;
+  border-color: #aaaaaa;
+  cursor: pointer;
+  scale: 1.05;
 }
