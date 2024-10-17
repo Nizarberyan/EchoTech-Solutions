@@ -362,9 +362,11 @@ hr.solid {
 }
 .main-contact {
   display: flex;
-  margin-top: 100px;
-  padding: 0 200px;
+  padding: 50px;
+  margin: 0 200px;
   justify-content: space-between;
+  border: 1px solid #acacac;
+  border-radius: 6px;
 }
 .fill-message {
   margin-bottom: 50px;
