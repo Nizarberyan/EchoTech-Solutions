@@ -203,8 +203,6 @@ html {
 }
 .intro2-text {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   width: 500px;
@@ -222,4 +220,18 @@ html {
 .intro2-image {
   margin-left: 60px;
   color: rgb(56, 56, 56)
+}
+.cta {
+  margin-top: 120px;
+}
+.cta-container {
+  display: flex;
+  justify-content: space-around;
+}
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin-right: 60px;
 }
