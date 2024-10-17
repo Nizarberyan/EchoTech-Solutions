@@ -359,3 +359,24 @@ hr.solid {
   display: flex;
   gap: 30px;
 }
+.main-contact {
+  display: flex;
+  padding: 0 300px;
+  justify-content: space-between;
+}
+.fill-message {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 350px;
+  height: 37px;
+  border-radius: 5px;
+  background: #f6f6f6;
+  border: 1px solid #37447e;
+}
+.note {
+  display: flex;
+}
