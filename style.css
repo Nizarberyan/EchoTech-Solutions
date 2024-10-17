@@ -456,13 +456,27 @@ hr.solid {
 }
 .social-media {
   display: flex;
+  padding: 50px;
+  width: 1117.6px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #acacac;
+  border-radius: 5px;
 }
 .sm-text {
   color: #37447e;
 }
 .sm-icons {
-  
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.sm-icon {
+  margin: 20px;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
 }
