@@ -28,7 +28,7 @@ html {
 
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 40px;
 }
 .hero-text {
@@ -167,15 +167,17 @@ html {
   width: 70%;
   justify-content: space-between;
 }
-.icon-title h1{
+.icon-title h1 {
   color: #37447e;
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
 }
-.icon-title2 h1{
+.icon-title2 h1 {
   color: #37447e;
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
 }
 .icon-inside {
   margin-right: 30px;
@@ -193,7 +195,7 @@ html {
   color: rgb(56, 56, 56);
 }
 .intro2 {
-  margin-top: 20px;
+  margin-top: 80px;
 }
 .intro2-container {
   display: flex;
@@ -201,5 +203,23 @@ html {
 }
 .intro2-text {
   display: flex;
-  
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin-right: 60px;
+}
+.intro2-text h1 {
+  align-self: flex-start;
+  color:#37447e;
+}
+.intro2-text p {
+  margin-top: 30px;
+  color: rgb(56, 56, 56);
+
+}
+.intro2-image {
+  margin-left: 60px;
+  color: rgb(56, 56, 56)
 }
