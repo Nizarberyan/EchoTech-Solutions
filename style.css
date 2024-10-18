@@ -473,6 +473,7 @@ hr.solid {
   width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
 }
 .sm-icon {
   margin: 20px;
