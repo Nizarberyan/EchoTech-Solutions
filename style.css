@@ -396,7 +396,7 @@ hr.solid {
   padding: 10px;
   font-family: "Inter";
 }
-.input-text :inp{
+.input-text :inp {
   display: none;
   color: red;
 }
@@ -462,7 +462,6 @@ hr.solid {
 }
 .social-media {
   display: flex;
-  padding: 50px;
   width: 1117.6px;
   justify-content: center;
   flex-direction: column;
@@ -729,10 +728,8 @@ input[type="checkbox"] {
 .error img {
   width: 80%;
   height: 80%;
-
 }
 .error {
   display: flex;
   justify-content: center;
-  
 }
