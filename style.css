@@ -396,6 +396,10 @@ hr.solid {
   padding: 10px;
   font-family: "Inter";
 }
+.input-text :inp{
+  display: none;
+  color: red;
+}
 .input-text {
   display: flex;
   flex-direction: column;
@@ -721,4 +725,14 @@ input[type="checkbox"] {
   justify-content: space-evenly;
   align-items: center;
   margin-right: 10px;
+}
+.error img {
+  width: 80%;
+  height: 80%;
+
+}
+.error {
+  display: flex;
+  justify-content: center;
+  
 }
